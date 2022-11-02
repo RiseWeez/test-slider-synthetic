@@ -21,8 +21,8 @@ body{
   position: absolute;
   left: 50px;
   top: 200px;
-  width: 250px;
-  height: auto;
+  width: 320px;
+  height: 156px;
   background: #fff;
   /* border-radius: 10px; */
   padding: 15px 15px 30px;
@@ -41,7 +41,7 @@ header h2{
 .price-input{
   width: 100%;
   display: flex;
-  margin: 10px 0 20px;
+  margin: 10px 0 30px;
 }
 .price-input .field{
   display: flex;
@@ -51,18 +51,22 @@ header h2{
 }
 .min-text{
   position: absolute;
-  border: 5px solid #fff;
-  top: 33px;
-  left: 26px;
+  border-left: 5px solid #fff;
+  border-right: 5px solid #fff;
+  top: 37px;
+  left: 30px;
   font-size: 10px;
+  color: #999;
   background-color: #fff;
 }
 .max-text{
   position: absolute;
-  border: 5px solid #fff;
-  top: 33px;
-  right: 80px;
+  border-left: 5px solid #fff;
+  border-right: 5px solid #fff;
+  top: 37px;
+  right: 110px;
   font-size: 10px;
+  color: #999;
   background-color: #fff;
 }
 .field input{
@@ -91,7 +95,7 @@ input[type="number"]::-webkit-inner-spin-button {
 .slider{
   height: 5px;
   position: relative;
-  background: #ffcc0085;
+  background: #ffcc004d;
   border-radius: 2px;
 }
 .slider .progress{
