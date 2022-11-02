@@ -15,12 +15,12 @@ body{
 }
 ::selection{
   color: #fff;
-  background: #ebc105;
+  background: #ffca00;
 }
 .wrapper{
   position: absolute;
-  left: 30px;
-  top: 100px;
+  left: 50px;
+  top: 200px;
   width: 250px;
   height: auto;
   background: #fff;
@@ -50,10 +50,10 @@ header h2{
   align-items: center;
 }
 .min-text{
-  font-size: 8px;
+  font-size: 10px;
 }
 .max-text{
-  font-size: 8px;
+  font-size: 10px;
 }
 .field input{
   width: 100%;
@@ -80,8 +80,8 @@ input[type="number"]::-webkit-inner-spin-button {
 .slider{
   height: 5px;
   position: relative;
-  background: #ebc10585;
-  /* border-radius: 5px; */
+  background: #ffcc0085;
+  border-radius: 2px;
 }
 .slider .progress{
   height: 100%;
@@ -89,7 +89,7 @@ input[type="number"]::-webkit-inner-spin-button {
   right: 0%;
   position: absolute;
   /* border-radius: 5px; */
-  background: #ebc105;
+  background: #ffca00;
 }
 .range-input{
   position: relative;
@@ -110,7 +110,7 @@ input[type="range"]::-webkit-slider-thumb{
   border-radius: 50%;
   border-color: #fff;
   border: 3px solid #fff;
-  background: #ebc105;
+  background: #ffca00;
   pointer-events: auto;
   -webkit-appearance: none;
   box-shadow: 0 15 30px rgba(0, 0, 0, 0.05);
@@ -120,7 +120,7 @@ input[type="range"]::-moz-range-thumb{
   width: 17px;
   border: none;
   border-radius: 50%;
-  background: #ebc105;
+  background: #ffca00;
   pointer-events: auto;
   -moz-appearance: none;
   box-shadow: 0 10 16px rgba(0,0,0,0.05);
